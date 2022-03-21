@@ -38,7 +38,6 @@ unset MAILCHECK
 export PS1="\[$(tput bold)\]\u@\h\[$(tput sgr0)\]: \w \\$ \[$(tput sgr0)\]"
 
 # Aliases
-
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias edit=$EDITOR
