@@ -12,6 +12,12 @@ export MANPATH="/usr/share/man:/usr/local/man:/usr/local/local_dfs/man"
 ## Which pager to use.
 export PAGER=less
 
+## Set locales
+export LANGUAGE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
+
 ## Choose your weapon
 EDITOR=/usr/bin/vim
 #EDITOR=/usr/bin/emacs
