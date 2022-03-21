@@ -51,4 +51,4 @@ set -o noclobber
 
 # Set the prompt to display the current git branch
 # and use pretty colors
-export PS1="\u@\h \w \\$\[$(tput sgr0)\]"
+export PS1="\[$(tput bold)\]\u@\h\[$(tput sgr0)\]: \w \\$\[$(tput sgr0)\]"
